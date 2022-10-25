@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: grid;
+  grid-template-columns: 40vw 40vw auto;
+  grid-template-rows: 5% 30% auto;
+  grid-template-areas:
+    'header header header'
+    'main main aside'
+    'main main .';
+  gap: 10px;
+}
+main {
+  width: 70%;
+  display: inline-block;
+  grid-area: main;
+  margin-left: 12%;
+  margin-bottom: 5px;
+  position: relative;
+}
+aside {
+  vertical-align: top;
+  display: inline-block;
+  grid-area: aside;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+blockquote {
+  padding-left: 4%;
+  font-family: Georgia, serif;
+  display: inline-block;
+  width: 43%;
+  vertical-align: top;
+  border-left: 2px solid lightgray;
+}
+header.nav {
+  grid-area: header;
+  position: relative;
+  border-bottom: 3px solid grey;
+}
+nav.nav {
+  position: absolute;
+  right: 10%;
+  bottom: 6%;
+}
+nav.nav ul {
+  width: 300px;
+}
+nav.nav li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  color: green;
+  list-style: none;
+}
+a {
+  font-family: Georgia, serif;
+  color: rgb(0, 102, 0);
+}
+section.first img {
+  float: right;
+}
+section.third img {
+  float: left;
+}
+p.second {
+  display: inline-block;
+  width: 43%;
+}
+blockquote p {
+    margin-left: 80%;
+    font-size: 12px;
+}
