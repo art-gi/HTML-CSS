@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  max-width: 15vw;
+ height: 32rem;
+  gap: 10px;
+}
+span {
+  border: 1px solid black;
+  padding: 20px;
+}
+.H {
+  order: 90;
+}
+.L {
+  order: 120;
+}
+.M {
+  order: 110;
+}
+.T {
+  order: 100;
+}
+.S {
+  order: 10;
+}
+.e {
+  order: 20;
+}
+.m {
+  order: 30;
+}
+.a {
+  order: 40;
+}
+.n {
+  order: 50;
+}
+.t {
+  order: 60;
+}
+.i {
+  order: 70;
+}
+.c {
+  order: 80;
+}
