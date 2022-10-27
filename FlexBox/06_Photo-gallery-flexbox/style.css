@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body ul {
+  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  width: 30%;
+  height: 520px;
+  max-width: 350px;
+  background-color: #fff;
+  border: 10px solid black;
+  box-shadow: inset 3px 3px 2px lightgray, inset -3px -3px 2px lightgray ;
+}
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
