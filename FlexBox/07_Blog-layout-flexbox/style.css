@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  margin: auto 8%;
+}
+div.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.page header {
+  display: flex;
+  justify-content: flex-startФ;
+  width: 100%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.page h1 {
+  text-transform: uppercase;
+}
+h1,
+blockquote {
+  font-family: Georgia, serif;
+}
+section.first {
+  display: flex;
+  justify-content: baseline;
+  gap: 3%;
+}
+
+div.first_section {
+  width: 65%;
+}
+aside li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+div.first_section img {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0 15px 0 15px;
+  border: 2px solid black;
+  float: right;
+}
+section.third img {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0 15px 15px 0;
+  border: 2px solid black;
+  float: left;
+}
