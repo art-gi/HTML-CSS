@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  max-width: 45vw;
+  max-height: 30vh;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container div.second {
+  width: 50%;
+}
+.container div.first,
+.container div.third,
+.container div.fourth {
+  width: 15%;
+}
+div {
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+img {
+  justify-content: center;
+}
+.container img.second {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
