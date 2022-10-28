@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-columns: 100px 500px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    gap:10px
+}
+header {
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+header,
+main,
+aside,
+footer {
+  border-radius: 3px;
+  background-color: rgb(181, 216, 255);
+  padding: 5px 10px;
+}
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+main ul, aside ul {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 8px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+nav li a {
+  color:rgb(53, 100, 153);
+  padding: 5px 15px;
+}
+a {
+display: block;
+padding: 5px 0px;
+color: rgb(86, 40, 129);
+text-decoration: none;
+}
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+  }
+  nav a {
+    display: block;
+    padding-left: 5px;
+  }
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
