@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@100;200;300;400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+h1,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+section.main {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+ 
+}
+.info,
+.auto-image {
+  width: 50%;
+}
+ul.advantages {
+  margin: 0;
+  padding: 0;
+
+}
+
+li.advantage {
+  display: flex;
+  align-items: center;
+  list-style: none;
+ 
+}
+.adv__title {
+margin-bottom: 0;
+}
+.adv__desc {
+  margin-top: 0px ;
+}
+li.advantage img {
+  width: 65px;
+  margin-right: 5px;
+}
+.info {
+ padding: 70px auto;
+}
+h1 {
+margin-bottom: 30px;
+}
+
